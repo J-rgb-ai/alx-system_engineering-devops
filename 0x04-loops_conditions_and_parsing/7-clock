@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#display a clock
+# Initialize hours and minutes
+hours=0
+minutes=1
+
+# Using a while loop to display time for 12 hours and 59 minutes
+while [ $hours -le 12 ]
+do
+    echo "Hour: $hours"
+    
+    # Display minutes from 1 to 59
+    while [ $minutes -le 59 ]
+    do
+        echo "$minutes"
+        ((minutes++))
+    done
+    
+    # Reset minutes and increment hours
+    minutes=1
+    ((hours++))
+done
