@@ -6,12 +6,13 @@
 counter=1
 while [ $counter -le 10 ]
 do
-	if [ $counter -eq 4 ]
-	then
+	# Check for specific loop iterations
+	if [ $counter -eq 4 ]; then
 		echo "bad luck"
-	elif [ $counter -eq 8 ]
-	then
+	elif [ $counter -eq 8 ]; then
 		echo  "good luck"
+	else
+		echo "Best  School"
 	fi
 	((counter++))
 done
