@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays lines containing the word bash
+
+./1-list_your_pocesses | grep "bash"
