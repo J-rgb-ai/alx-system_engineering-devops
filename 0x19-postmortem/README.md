@@ -27,3 +27,10 @@
 | 0. My first postmortem | [README.md](./README.md) |
 .md) |
 
+
+task 1
+https://docs.google.com/document/d/1v9EbG_elddchzX8UmdUB4eLQxBlN5EDiwO5MviF2Ke8/edit?usp=sharing
+
+task 2
+https://docs.google.com/document/d/1xfZrJcJ6gqMqWC1T-RIClB-niJPCSOD5a7ZC-htrVQM/edit?usp=sharing
+
